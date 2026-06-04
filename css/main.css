@@ -31,10 +31,23 @@ color:red;
 
 img{
 width:300px;
-height:200px;
+height:200px; 
 
 contenedor{
-  position: relative;
-  width: 500px;
-  height: 500px;
+  position: fixed;   /* Se queda fijo en la pantalla */
+  top:20px;         /* Separación desde arriba */
+  right:20px;       /* Separación desde la derecha */
+  
+  display: flex;     /* Activa Flexbox para ordenar los links */
+  gap:15px;         /* Espacio de separación entre cada link */
+  
+  background-color:black; /* Fondo para que resalten */
+  padding:10px 20px;     /* Margen interno */
+  border-radius:8px;     /* Bordes redondeados */
+  z-index:1000;          /* Asegura que queden encima de todo */
+}
+
+.contenedor-fijo a {
+  color:white;           /* Color del texto */
+  text-decoration:none;  /* Quita la línea de abajo */
 }
