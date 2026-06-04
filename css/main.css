@@ -8,9 +8,14 @@ color:blue;
 font-size:42px;
 }
 
-h1{
+h2{
 color:black;
 front-size:50px;
+}
+
+h3{
+color:black;
+front-size:80px;
 }
 
 p{
