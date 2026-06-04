@@ -35,8 +35,8 @@ height:200px;
 
 contenedor{
   position: fixed;   /* Se queda fijo en la pantalla */
-  top:20px;         /* Separación desde arriba */
-  right:20px;       /* Separación desde la derecha */
+  top:10px;         /* Separación desde arriba */
+  right:10px;       /* Separación desde la derecha */
   
   display: flex;     /* Activa Flexbox para ordenar los links */
   gap:15px;         /* Espacio de separación entre cada link */
