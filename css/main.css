@@ -10,7 +10,7 @@ font-size:42px;
 
 h2{
 color:black;
-text-align:center;
+font-size:42px;
 }
 
 h3{
@@ -52,4 +52,8 @@ height:200px;
 
 .menu a:hover {
     background-color: #00aaff;
+}
+
+table {
+text-align:center;
 }
