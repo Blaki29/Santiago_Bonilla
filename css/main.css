@@ -33,6 +33,12 @@ img{
 width:200px;
 height:500px; 
 }
+
+img2{
+width:200px;
+height:500px;
+  text-align:right;
+}
 .menu {
     background-color: #003366;
     padding: 15px;
