@@ -71,6 +71,6 @@ table{
 }
 
 .img-derecha img_dere {
-    max-width: 300px; /* Controla el tamaño de tu imagen */
+    max-width: 800px; /* Controla el tamaño de tu imagen */
     height: auto; /* Mantiene la proporción de la imagen */
 }
