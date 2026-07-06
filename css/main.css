@@ -63,3 +63,15 @@ height:500px;
 table{
   text-align:center;
 }
+
+.img-derecha{
+    display: flex; /* Activa el diseño flexible */
+    justify-content: flex-end; /* Alinea todo el contenido hacia la derecha */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    padding: 20px; /* Espacio opcional para que no pegue al borde de la pantalla */
+}
+
+.img-derecha img {
+    max-width: 300px; /* Controla el tamaño de tu imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
