@@ -71,7 +71,7 @@ table{
     padding: 20px; /* Espacio opcional para que no pegue al borde de la pantalla */
 }
 
-.img-derecha img {
+.img-derecha img_dere {
     max-width: 300px; /* Controla el tamaño de tu imagen */
     height: auto; /* Mantiene la proporción de la imagen */
 }
